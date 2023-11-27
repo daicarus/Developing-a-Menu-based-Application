@@ -11,7 +11,7 @@ public class Course {
     private Faculty faculty;
 
     public Course() {
-
+        this.studentList = new Student [numberOfStudent];
     }
 
     public Course(String courseId, String courseTitle, double credit) {
